@@ -90,5 +90,4 @@ function setLanguage(locale) {
 }
 
 const userLocale = navigator.language.startsWith("id") ? "id" : "en";
-print(userLocale);
 setLanguage(userLocale);
